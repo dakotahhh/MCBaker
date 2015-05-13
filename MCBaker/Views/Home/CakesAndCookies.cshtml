@@ -1,0 +1,17 @@
+﻿@model MCBaker.Models.Images
+@{
+    ViewBag.Title = "CakesAndCookies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    @Styles.Render("~/Content/css/bodyCss.css")
+    @Scripts.Render("~/Content/scripts/slideshowScript.js")
+</head>
+
+<h2>CakesAndCookies</h2>
+
+@foreach(String source in Model.imageList)
+{
+    <img id="foodImage" src="~/Content/images/@(Model.directory)/@(source)" />
+}

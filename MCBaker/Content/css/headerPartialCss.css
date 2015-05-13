@@ -1,0 +1,23 @@
+﻿#header{
+    position: relative;
+    vertical-align: bottom;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#footer{
+    width:15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.navLinks{
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+﻿<head>
+    @Styles.Render("~/Content/css/headerPartialCss.css")
+</head>
+
+<div id="header">
+    <div id="websitename">
+        <h1>Meg Canal</h1>
+    </div>
+
+    <div id="navbar">
+        <nav>
+            @Html.ActionLink("Home", "Index", "Home", new { @class = "navLinks" })
+            @Html.ActionLink("Cakes & Cookies", "CakesAndCookies", "Home", new { @class = "navLinks" })
+            @Html.ActionLink("Bread", "Bread", "Home", new { @class = "navLinks" })
+            @Html.ActionLink("& More", "AndMore", "Home", new { @class = "navLinks" })
+            @Html.ActionLink("Contact", "Contact", "Home", new { @class = "navLinks" })
+        </nav>
+    </div>
+</div>
